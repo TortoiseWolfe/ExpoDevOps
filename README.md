@@ -1,2 +1,3 @@
 # ExpoDevOps
-In this stream, we'll be building an iOS app using Expo and Docker, with the help of an AI assistant named  #ChatGPT
+
+In this stream we'll be building an iOS app with Expo, which is a toolkit for building cross-platform mobile apps, and Docker, a containerization platform.  I'll be assisted by an AI named #ChatGTP.  We'll start by setting up our development environment with Expo and Node.js, and then use Docker to containerize our backend and frontend services. We'll also cover how to use Traefik (maybe later, not sure how compatible it'll be with Expo but I can comment it out and keep it handy for other variations of the dev enviroment), a reverse proxy and load balancer, to route traffic to our app. If you're interested in learning how to build and deploy a cross-platform mobile app with Expo and Docker, then this stream is for you. So sit back, relax, and let's get started!
