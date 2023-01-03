@@ -1,52 +1,6 @@
-# ExpoDevOps
-
-In this stream we'll be building an iOS app with Expo, which is a toolkit for building cross-platform mobile apps, and Docker, a containerization platform.  I'll be assisted by an AI named #ChatGTP.  We'll start by setting up our development environment with Expo and Node.js, and then use Docker to containerize our backend and frontend services. We'll also cover how to use Traefik (maybe later, not sure how compatible it'll be with Expo but I can comment it out and keep it handy for other variations of the dev enviroment), a reverse proxy and load balancer, to route traffic to our app. If you're interested in learning how to build and deploy a cross-platform mobile app with Expo and Docker, then this stream is for you. So sit back, relax, and let's get started!
-
-
-
-# [ExpoDevOps](https://github.com/TortoiseWolfe/ExpoDevOps 'Mongo Expo React Node: Docker TypeScript Ubuntu')
+# [devOps](https://github.com/TurtleWolfe/devOps 'Mongo Express React Node: Docker TypeScript Ubuntu')
 
 <!-- ## [I'm an inline-style link with title](https://www.google.com "Google's Homepage") -->
-
-```
-my-project/
-  backend/
-    Dockerfile
-    src/
-      # Backend code and dependencies go here
-  app/
-    src/
-      # Expo app code and dependencies go here
-  Dockerfile
-  docker-compose.yml
-```
-
-
-```bash
-export DEV_MAIL=janeDOE@mail.com
-export LOCAL_HOST=localhost
-export MongoDB_PASSWORD=butterzCUPz
-export MongoDB_USERNAME=janeDOE
-export WORDPRESS_DB_HOST=db
-export WORDPRESS_DB_NAME=exampledb
-export WORDPRESS_DB_PASSWORD=examplepass
-export WORDPRESS_DB_USER=exampleuser
-docker-compose up -d --build
-docker-compose down
-```
-
-```bash
-docker stack rm traefik
-# docker info
-sudo rm -rf devOps/
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519DO
-git clone git@github.com:TurtleWolfe/devOps.git
-cd devOps
-docker stack deploy -c docker-compose.yml traefik
-```
-
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=b6508f8816fd&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 ## [Bash](https://www.google.com 'Docker Captain & David Herron')
 
@@ -54,19 +8,18 @@ docker stack deploy -c docker-compose.yml traefik
 1. ~~[Getting started with OpenSSH](https://subscription.packtpub.com/book/networking-and-servers/9781788997560/4/ch04lvl1sec47/getting-started-with-openssh "OpenSSH is quite possibly the most useful tool in existence for managing Linux servers. Of all the countless utilities available, this is the one I recommend that everyone starts practicing as soon as they can. Technically, I could probably better fit a section for setting up OpenSSH in Chapter 7, Setting Up Network Services, but this utility is very handy, and we should start using it as soon as possible. In this section, I'll give you some information on OpenSSH and how to install it, and then I'll finish up the section with a few examples of actually using it.")~~
 1. ~~Fail2Ban~~
 1. ~~Uncomplicated FireWall~~
-1. ~~escape `SED`~~
-1. ~~jail.local.conf~~
-1. ~~add Docker to previous Bash Script~~
+1. escape `SED`
+1. jail.local.conf
+1. add Docker to previous Bash Script
 1. git clone repo
 
 ## [Docker](https://www.google.com 'Docker Captain & David Herron')
 
-1. `Dockerfile` multi stage ~~dev~~, ~~prod~~, test, build
-1. ~~FrontEnd React~~ TypeScript
 1. NGINX
-1. ~~BackEnd express, Next, Nuxt or Nest TypeScript Backend~~
+1. FrontEnd React TypeScript
+1. BackEnd express, Next, Nuxt or Nest TypeScript Backend
 1. git clone repo
-1. ~~docker-compose UP~~
+1. docker-compose UP
 
 ## [Cloud](https://www.google.com 'I')
 
@@ -118,9 +71,9 @@ By the end of this Node.js book, you’ll have gained practical Node.js web deve
 
 ### [https://github.com/TurtleWolfe/Docker-on-Ubuntu](https://github.com/TurtleWolfe/Docker-on-Ubuntu 'https://github.com/TurtleWolfe/Docker-on-Ubuntu')
 
-#### [digitalocean/how-to-install-and-use-docker-on-ubuntu-20-04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04 'https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04')
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
-## [Dockerizing a React App](https://mherman.org/blog/dockerizing-a-react-app/ 'This tutorial demonstrates how to Dockerize a React app using the Create React App generator')
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
 
 ## [ChatSocketIO Draggable Dice DockerFile React AWS](http://ec2-52-87-220-90.compute-1.amazonaws.com/ 'NGINX Docker AWS')
 
@@ -1011,10 +964,9 @@ DockerCompose-Production.yml
 
 ### [# 16? When To Use Alpine, Debian, or CentOS Images](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13545430#content 'Build, test, deploy Node for Docker, Kubernetes, Swarm, and ARM with the latest DevOps practices from a container expert')
 
-1. [try `Slim` first](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13545430#content '14 2:26')
-1. [then `Alpine` if needed](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13545430#content '14 2:26')
+1. [`Alpine`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13545430#content '14 2:26')
 1. [not `slim` or `latest`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13545430#content '14 2:26')
-1. [`Stretch` more current than `Jessie`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13545430#content '14 2:26 and Stretch uses security scanning')
+1. [`Stretch` more current than `Jessie`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13545430#content '14 2:26')
 
 ### [# 18. Assignment Answers: Making a CentOS Node Image](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13545438#content 'Build, test, deploy Node for Docker, Kubernetes, Swarm, and ARM with the latest DevOps practices from a container expert')
 
@@ -1078,16 +1030,12 @@ DockerCompose-Production.yml
 
 ### [# 31. Multi-stage Docker Builds](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236624#content 'Build, test, deploy Node for Docker, Kubernetes, Swarm, and ARM with the latest DevOps practices from a container expert')
 
-1. [docker build -t myapp:prod `--target prod` .](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236624#content '3:30 6:00')
+1. [`FROM node as prod`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236624#content '3:30')
+1. [`FROM prod as dev`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236624#content '3:30')
 
 ### [# 34](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236854#content 'Build, test, deploy Node for Docker, Kubernetes, Swarm, and ARM with the latest DevOps practices from a container expert')
 
-1. [FROM `node` as `prod`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236854#content '3:30')
-1. [ENV `NODE_ENV`=`production`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236854#content '3:30')
-1. [FROM `prod` as `dev`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236854#content '3:30')
-1. [ENV `NODE_ENV`=`development`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236854#content '3:30')
-1. [FROM `dev` as `test`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236854#content '3:30')
-1. [ENV `NODE_ENV`=`development`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236854#content '3:30')
+1. [`FROM node as prod`](https://www.udemy.com/course/docker-mastery-for-nodejs/learn/lecture/13236854#content '3:30')
 
 ## Section 6: Node Apps in Cloud Native Docker
 
