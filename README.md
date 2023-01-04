@@ -1,8 +1,7 @@
 # ExpoDevOps
 
-In this stream we'll be building an iOS app with Expo, which is a toolkit for building cross-platform mobile apps, and Docker, a containerization platform.  I'll be assisted by an AI named #ChatGTP.  We'll start by setting up our development environment with Expo and Node.js, and then use Docker to containerize our backend and frontend services. We'll also cover how to use Traefik (maybe later, not sure how compatible it'll be with Expo but I can comment it out and keep it handy for other variations of the dev enviroment), a reverse proxy and load balancer, to route traffic to our app. If you're interested in learning how to build and deploy a cross-platform mobile app with Expo and Docker, then this stream is for you. So sit back, relax, and let's get started!
-
-
+In this stream we'll be building an iOS app with Expo, which is a toolkit for building cross-platform mobile apps and Docker, a containerization platform.  I'll be assisted by an AI named ChatGTP.  I'll start with setting up the development environment with Expo and Node.js, and then use Docker to containerize the back and front end services. We'll also cover how to use Traefik, a reverse proxy and load balancer, to route traffic to our app(maybe later, not sure how compatible it'll be with Expo but I can comment it out and keep it handy for other variations of the dev enviroment).
+If you're interested in learning how to build and deploy a cross-platform mobile app with Expo and Docker, then this stream is for you!
 
 # [ExpoDevOps](https://github.com/TortoiseWolfe/ExpoDevOps 'Mongo Expo React Node: Docker TypeScript Ubuntu')
 
@@ -21,7 +20,6 @@ my-project/
   docker-compose.yml
 ```
 
-
 ```bash
 export DEV_MAIL=janeDOE@mail.com
 export LOCAL_HOST=localhost
@@ -32,6 +30,8 @@ export WORDPRESS_DB_NAME=exampledb
 export WORDPRESS_DB_PASSWORD=examplepass
 export WORDPRESS_DB_USER=exampleuser
 docker-compose up -d --build
+```
+```
 docker-compose down
 ```
 
